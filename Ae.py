@@ -47,36 +47,14 @@ sleep(2)
 
 
 
+iframe = nav.find_element(By.ID, "frawinActive_0")
+controle = nav.find_element(By.XPATH,'//*[@id="txtCPFMot1"]').click()
+# controle = nav.find_element(By.XPATH,"/html/body/form/div[3]/div[1]/div[1]/div/div[2]/div[1]/div[2]/div[2]/input").send_keys("02518893946")
 
-
-controle = nav.find_element(By.XPATH,"/html/body/form/div[3]/div[1]/div[1]/div/div[2]/div[1]/div[2]/div[2]/input").click()
-# controle = nav.find_element(By.ID,"txtPas").send_keys("CANAA")
-
-# controle = nav.find_element('xpath','/html/body').click()
-# controle = nav.find_element('xpath','/html/body').send_keys("02518893946")
-
-# //*[@id="OpenPopup_ctl00_PW0"]()
-#controle = wait.until(EC.element_to_be_clickable((By.ID,"OpenPopup_ctl00_PW0(txtCPFMot1)")))
-# controle = nav.find_element((By.ID,"OpenPopup_ctl00_PW0(txtCPFMot1)")).send_keys("02518893946")
-
-
-# controle = wait.until(EC.element_to_be_clickable((By.ID,"txtCPFMot1")))
-# controle = nav.find_element(By.ID,"txtCPFMot1").click()
-# controle = nav.find_element(By.ID,"txtCPFMot1").send_keys("02518893946")
-
-# //*[@id="txtCPFMot1"]
 
 
 sleep(5)
 
-# /html/body
-
-# nav.save_screenshot("fototeste.png")
-# sleep(5)
-# //*[@id="cmbNacionalidadeMOT1"]
-
-# //*[@id="txtCPFMot1"]
-# /html/body/form/div[3]/div[1]/div[1]/div/div[2]/div[1]/div[2]/div[2]/input
 
 
 
